@@ -25,7 +25,7 @@ urlpatterns = [
     path('',views.welcome),
     path('user/',views.UserActivities.as_view(),name='user'),
 
-    path('populate_data/',views.data_populate,name='populate')
+    path('populate_data/',views.data_populate,name='populate_data')
 
 ]
 

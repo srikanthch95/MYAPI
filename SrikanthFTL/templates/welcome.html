@@ -24,7 +24,8 @@
     <div class="container">
         <h2>HELLO, WELCOME TO API</h2>
         <h3><a href="{% url 'user' %}">Click Here For User and Activity API data</a></h3>
-        <h3><a href="{% url 'populate' %}">Click Here for AutoPopulate the Database with some more Dummy Data</a></h3>
+        <h4>API URL LINK : http://srikanth7200.pythonanywhere.com/user/</h4>
+        <h3><a href="{% url 'populate_data' %}">Click Here for AutoPopulate the Database with some more Dummy Data</a></h3>
 
         {% if populate %}
             <h4>{{ populate }}</h4>
